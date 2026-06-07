@@ -11,7 +11,7 @@ spring:
           # search-locations: "classpath:/config"
           # search-locations: "file:///Users//eazybytes//Documents//config"
         git:
-          uri: "https://github.com/eazybytes/eazybytes-config.git"
+          uri: "https://github.com/MANOJKRAGY/manojkragy-bank-config.git"
           default-label: main
           timeout: 5
           clone-on-start: true
@@ -42,3 +42,6 @@ encrypt:
 
 server:
   port: 8071
+
+#  docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management
+#  hookdeck listen 8071 source --cli-path /monitor -> hookdeck to start a guest session
